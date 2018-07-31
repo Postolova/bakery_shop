@@ -1,40 +1,149 @@
+// * {
+//   border: 1px solid #000;
+// }
+.art__gradient {
+  background: linear-gradient(to bottom left, #ffffff00, #fff);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .art {
   background: url('../images/img/Ebene.jpg') no-repeat;
   background-size: cover;
   display: flex;
 }
 
+.art__sides {
+  width: 100%;
+  z-index: 1;
+}
+
 .art__left-side {
   width: 50%;
   height: 100%;
   display: flex;
+  justify-content: flex-end;
+  color: #56534c;
+}
+
+.art__container {
+  width: 500px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .art__titles {
   width: 280px;
   height: 65px;
-  text-align: center;
+  font-family: "Alegria";
+  font-weight: 600;
+  text-shadow: -2px 3px 7px #56534cc8;
 }
 
 .art__title {
-  color: #56534c;
   font-size: 48px;
   line-height: 0.63;
   letter-spacing: 1.2px;
 }
 
 .art__subtitle {
-  font-family: "Alegria";
   font-size: 14px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 2.14;
   letter-spacing: 1.4px;
-  text-align: center;
   color: #a47d5e;
+}
+
+.art__desc {
+  text-shadow: -9px 10px 19px #a47d5e64;
+}
+
+.art__cooker {
+  width: 100%;
+}
+
+.art__cooker-title {
+  font-size: 24px;
+  font-family: 'Alegria';
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.6px;
+  text-shadow: -2px 3px 5px #56534cdb;
+}
+
+.art__cooker-avatar {
+  background: url('../images/img/cooker.jpg');
+  background-position-x: 15%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 45px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Alegria';
+  font-weight: 400;
+  box-shadow: -1px 2px 10px 1px;
+  text-shadow: -2px 3px 9px #56534cc4;
+  &::before {
+    display: inline-block;
+    content: "Benito";
+    margin-right: 70px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+  }
+  &::after {
+    display: inline-block;
+    content: "Gaspare";
+    margin-left: 100px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+  }
+}
+
+.art__cooker-titles {
+  display: flex;
+  justify-content: center;
+}
+
+.art__cooker-subtitle {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: 'Scriptina';
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.6px;
+  color: #a47d5e;
+  text-shadow: -9px 10px 19px #a47d5e;
+  ;
+  &::before {
+    display: inline-block;
+    content: "“";
+    font-size: 60px;
+    line-height: 0.5;
+    color: rgba(86, 83, 76, 0.3);
+    margin-right: 20px;
+  }
+  &::after {
+    display: inline-block;
+    content: "”";
+    font-size: 60px;
+    line-height: 0.5;
+    color: rgba(86, 83, 76, 0.3);
+    align-self: flex-end;
+    margin-left: 20px;
+  }
 }
 
 .art__right-side {

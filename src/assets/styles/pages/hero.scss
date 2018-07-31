@@ -15,6 +15,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  text-shadow: -2px 2px 2px black;
 }
 
 .hero__logo {
@@ -116,7 +117,7 @@
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 2.4px;
-  text-shadow: -16px 12px 10px #010101;
+  text-shadow: -2px 2px 2px #010101;
   margin-bottom: 30px;
 }
 
@@ -131,6 +132,7 @@
   letter-spacing: 4.2px;
   color: #fff;
   border-radius: 5px;
+  text-shadow: -3px 4px 7px black;
   &:hover {
     background-color: #56534cc2;
   }
