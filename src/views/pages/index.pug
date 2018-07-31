@@ -1,0 +1,15 @@
+include ../common/_mixins.pug
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Bakery | Shop
+    link(rel="stylesheet", href="assets/styles/main.min.css")
+  body
+    .wrapper
+      .maincontent
+        include ../common/hero.pug
+        include ../common/art.pug
+    script(src="assets/scripts/main.bundle.js")

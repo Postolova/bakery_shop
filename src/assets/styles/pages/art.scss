@@ -1,0 +1,44 @@
+.art {
+  background: url('../images/img/Ebene.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.art__left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.art__titles {
+  width: 280px;
+  height: 65px;
+  text-align: center;
+}
+
+.art__title {
+  color: #56534c;
+  font-size: 48px;
+  line-height: 0.63;
+  letter-spacing: 1.2px;
+}
+
+.art__subtitle {
+  font-family: "Alegria";
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #a47d5e;
+}
+
+.art__right-side {
+  width: 50%;
+  height: 100%;
+  left: 50%;
+}
