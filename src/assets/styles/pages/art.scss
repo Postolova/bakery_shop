@@ -15,8 +15,10 @@
 }
 
 .art__sides {
+  display: flex;
   width: 100%;
   z-index: 1;
+  min-height: 530px;
 }
 
 .art__left-side {
@@ -27,10 +29,10 @@
   color: #56534c;
 }
 
-.art__container {
-  width: 500px;
+.art__left-container {
+  width: 77%;
   height: 100%;
-  padding: 20px;
+  padding: 10px 40px 10px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -150,4 +152,60 @@
   width: 50%;
   height: 100%;
   left: 50%;
+}
+
+.art__right-container {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.art__pictures {
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+
+.art__circle {
+  @include absolute;
+  width: 247px;
+  height: 225px;
+  background: url('../images/img/tasty_circle.png') no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.art__circle-title {
+  font-family: 'Alegria';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 1.5px;
+  color: #c9b176;
+  text-transform: uppercase;
+}
+
+.art__pictures-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.art__pictures-item {
+  width: 49%;
+  height: 49%;
+}
+
+.art__pictures-img {
+  min-width: 200px;
+  width: 100%;
+  height: 100%;
 }
