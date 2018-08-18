@@ -33,11 +33,19 @@
   font-display: block;
 }
 
+// Myriad Font
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/Myriad/MyriadPro-Regular.woff')format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 // PlayfairDisplay Font
 @font-face {
   font-family: 'PlayfairDisplay';
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff') format(woff),
-  url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2') format(woff2);
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff') format(woff), url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2') format(woff2);
   font-weight: 600;
   font-style: normal;
   font-display: block;
