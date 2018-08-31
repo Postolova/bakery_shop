@@ -6,16 +6,53 @@ section.section.price
         .pricelist__main-subtitle 7am Breakfast? we’re open!
       ul.pricelist__list
         li.pricelist__item
-          .pricelist__title Full breackfast
-          .pricelist__subtitle Duis ut tortor, et risus, vulputate pretium
+          .pricelist__name Full breackfast
+          .pricelist__subname Duis ut tortor, et risus, vulputate pretium
           .pricelist__price $ 12.49
         li.pricelist__item
-          .pricelist__title Toast & Jam
-          .pricelist__subtitle Suspendisse, tempus, nterdum
+          .pricelist__name Toast & Jam
+          .pricelist__subname Suspendisse, tempus, nterdum
           .pricelist__price $ 4.90
         li.pricelist__item
-          .pricelist__title Muffins
-          .pricelist__subtitle Fusce eget dui sodales est
+          .pricelist__name Muffins
+          .pricelist__subname Fusce eget dui sodales est
           .pricelist__price $ 3.95
 
-  .price-desc
+  .price__cards
+    ul.price__cards-list
+      li.price__cards-item.price__cards-item--card1--left
+        .card__triangle
+        .card__pic-colos
+          +image('img/price_colos.png', 'el', 'card__pic-img')
+        .card__top
+          span.card__age est.
+          data.card__data 1893
+          .card__pic
+            +image('img/price_line.png', 'element', 'card__img')
+        h2.card__title Your morning Escape with Flair
+        p.card__desc Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+        button.card__button(type="button") read
+      li.price__cards-item.price__cards-item--card2--left
+        .card__triangle
+        .card__pic-colos
+          +image('img/price_colos.png', 'el', 'card__pic-img')
+        .card__top
+          span.card__age est.
+          data.card__data 1893
+          .card__pic
+            +image('img/price_line.png', 'element', 'card__img')
+        h2.card__title Your morning Escape with Flair
+        p.card__desc Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+        button.card__button(type="button") read
+      li.price__cards-item.price__cards-item--card3--left
+        .card__triangle
+        .card__pic-colos
+          +image('img/price_colos.png', 'el', 'card__pic-img')
+        .card__top
+          span.card__age est.
+          data.card__data 1893
+          .card__pic
+            +image('img/price_line.png', 'element', 'card__img')
+        h2.card__title Your morning Escape with Flair
+        p.card__desc Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+        button.card__button(type="button") read
